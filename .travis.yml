@@ -12,6 +12,7 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
+  edge: true
   app: "docker-react"
   env: "Dockerreact-env"
   bucket_name: "elasticbeanstalk-us-east-1-242584550674"
