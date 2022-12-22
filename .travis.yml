@@ -9,5 +9,3 @@ before_install:
 script:
   - docker run -e CI=true belcherman2/docker-react npm run test -- --coverage
 
-
-
